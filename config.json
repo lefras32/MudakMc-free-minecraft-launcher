@@ -1,0 +1,30 @@
+{
+    "versions": {
+        "1.20.4": {
+            "java_args": "-Xmx4G -Dnashorn.enabled=false",
+            "game_path": "assets/1.20.4.jar"
+        },
+        "1.20.1": {
+            "java_args": "-Xmx4G -Dnashorn.enabled=false",
+            "game_path": "assets/1.20.1.jar"
+        },
+        "1.19.4": {
+            "java_args": "-Xmx4G -Dnashorn.enabled=false",
+            "game_path": "assets/1.19.4.jar"
+        }
+    },
+    "default_version": "1.20.4",
+    "profiles": [
+        {
+            "name": "13",
+            "version": "1.20.1",
+            "loader": "vanilla"
+        }
+    ],
+    "username": "Uebok",
+    "java_path": "java",
+    "ram": 2,
+    "accounts": [
+        "uebok"
+    ]
+}
